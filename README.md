@@ -23,14 +23,14 @@ Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 Cross-validation is also performed to ensure the reliability and stability of the prediction model.
 
-## Dataset
-# Dataset Name
+# Dataset
+## Dataset Name
 weather-station-eee-block_2024_07_13.csv
-# Dataset Description
+## Dataset Description
 
 The dataset contains environmental sensor readings collected from a weather station.
 
-# Important Attributes Used
+## Important Attributes Used
 Attribute|	Description
 time     |	Date and time of sensor reading
 hum	     | Humidity
@@ -39,7 +39,7 @@ wind_speed |	Wind speed
 tem      |	Temperature
 pm2_5	PM2.5| pollution level
 tsr	Energy | solar radiation value
-# Input Features
+## Input Features
 Humidity (hum)
 Pressure (pressure)
 Wind Speed (wind_speed)
@@ -47,7 +47,7 @@ Day
 Month
 Year
 Hour
-# Target Variables
+## Target Variables
 Temperature (tem)
 PM2.5 (pm2_5)
 Energy (tsr)
@@ -170,8 +170,9 @@ print("\nCross-validation scores close to each other indicate that the model is 
 ```
 
 ## Output:
-<img width="1089" height="691" alt="image" src="https://github.com/user-attachments/assets/0b053823-e1f9-4b15-aa66-a4b629379c4d" />
 <img width="1110" height="694" alt="image" src="https://github.com/user-attachments/assets/38eda52b-b218-4237-b4bc-2c101b5bd9fa" />
+<img width="1089" height="691" alt="image" src="https://github.com/user-attachments/assets/0b053823-e1f9-4b15-aa66-a4b629379c4d" />
+
 
 
 ## Result:
