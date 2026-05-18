@@ -2,24 +2,24 @@
 ## AIM:
 To write a program to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm.
 
-## Problem Statement and Dataset
+# Problem Statement 
 The objective of this experiment is to develop a Random Forest Regression Model to predict:
-Temperature
-PM2.5 pollution level
+Temperature,
+PM2.5 pollution level,
 Energy generation
 using environmental sensor data collected from a weather monitoring station.
 
 The model uses input features such as:
 
-Humidity
-Atmospheric Pressure
-Wind Speed
+Humidity,
+Atmospheric Pressure,
+Wind Speed,
 Date and Time information
 
 The performance of the model is evaluated using:
 
-R² Score
-Mean Absolute Error (MAE)
+R² Score,
+Mean Absolute Error (MAE),
 Root Mean Squared Error (RMSE)
 Cross-validation is also performed to ensure the reliability and stability of the prediction model.
 
@@ -67,8 +67,8 @@ Energy (tsr)
 ```
 /*
 Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
-Developed by: 
-RegisterNumber:  
+Developed by: DEVA ABISHEK P
+RegisterNumber:  212223110008
 */
 import pandas as pd
 import numpy as np
